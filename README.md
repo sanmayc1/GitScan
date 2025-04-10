@@ -1,7 +1,7 @@
 
 # GitHub Repository Explorer
 
-This is my completed internship task. The app allows users to enter a GitHub username, fetch their public repositories, and view a chart of commit activity.
+The app allows users to enter a GitHub username, fetch their public repositories, and view a chart of commit activity.
 
 ---
 
