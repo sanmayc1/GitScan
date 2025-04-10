@@ -85,7 +85,7 @@ const SearchUserProfile: React.FC = () => {
           {loading ? (
             Array(14)
               .fill(0)
-              .map((value, index) => <RepositorySkeleton key={index} />)
+              .map((value, index) => <RepositorySkeleton key={value?index:index} />)
           ) : repositories.length > 0 ? (
             repositories.map((repo) => (
               <Repository
